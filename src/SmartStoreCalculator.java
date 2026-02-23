@@ -22,5 +22,7 @@ public class SmartStoreCalculator {
 
         System.out.print("Number of installments: ");
         int numberOfInstallments = input.nextInt();
+
+        double grossTotal = unitPrice * quantityPurchased;
     }
 }
