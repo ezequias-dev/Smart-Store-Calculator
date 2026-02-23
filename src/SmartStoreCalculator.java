@@ -16,5 +16,8 @@ public class SmartStoreCalculator {
 
         System.out.print("Quantity purchased: ");
         int quantityPurchased = input.nextInt();
+
+        System.out.print("Discount percentage: ");
+        int discountPercentage = input.nextInt();
     }
 }
