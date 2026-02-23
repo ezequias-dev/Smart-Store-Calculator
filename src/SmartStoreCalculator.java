@@ -28,5 +28,6 @@ public class SmartStoreCalculator {
         double grossTotal = unitPrice * quantityPurchased;
         double discountValue = grossTotal * (discountPercentage / 100.0);
         double finalTotalWithDiscount = grossTotal - discountValue;
+        double installmentAmount = finalTotalWithDiscount / numberOfInstallments;
     }
 }
