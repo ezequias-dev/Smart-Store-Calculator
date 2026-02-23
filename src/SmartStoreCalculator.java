@@ -26,5 +26,7 @@ public class SmartStoreCalculator {
         int numberOfInstallments = input.nextInt();
 
         double grossTotal = unitPrice * quantityPurchased;
+        double discountValue = grossTotal * (discountPercentage / 100.0);
+        double finalTotalWithDiscount = grossTotal - discountValue;
     }
 }
