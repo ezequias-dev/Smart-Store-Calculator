@@ -1,9 +1,11 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class SmartStoreCalculator {
 
     public static void main(String[] args) {
 
+        Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
         System.out.println("==== SMART STORE CALCULATOR ====");
