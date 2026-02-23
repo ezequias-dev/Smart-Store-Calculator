@@ -13,5 +13,8 @@ public class SmartStoreCalculator {
 
         System.out.print("Unit price: ");
         double unitPrice = input.nextDouble();
+
+        System.out.print("Quantity purchased: ");
+        int quantityPurchased = input.nextInt();
     }
 }
