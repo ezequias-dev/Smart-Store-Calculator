@@ -8,8 +8,9 @@ public class SmartStoreCalculator {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
-        char percentageSymbol = '%';
         char moneySymbol = '$';
+        char percentageSymbol = '%';
+        char xSymbol = 'x';
 
         System.out.println("==== SMART STORE CALCULATOR ====");
 
@@ -37,6 +38,7 @@ public class SmartStoreCalculator {
         System.out.println("Product name: " + productName);
         System.out.printf("Unit price: %c%.2f%n", moneySymbol, unitPrice);
         System.out.println("Quantity purchased: " + quantityPurchased);
-        System.out.printf("Discount percentage: %d%c", discountPercentage, percentageSymbol);
+        System.out.printf("Discount percentage: %d%c%n", discountPercentage, percentageSymbol);
+        System.out.printf("Number of installments: %d%c", numberOfInstallments, xSymbol);
     }
 }
