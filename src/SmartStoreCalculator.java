@@ -41,5 +41,6 @@ public class SmartStoreCalculator {
         System.out.printf("Discount percentage: %d%c%n", discountPercentage, percentageSymbol);
         System.out.printf("Number of installments: %d%c%n", numberOfInstallments, xSymbol);
         System.out.printf("Gross total: %c%.2f%n", moneySymbol, grossTotal);
+        System.out.printf("Discount value: %c%.2f%n", moneySymbol, discountValue);
     }
 }
