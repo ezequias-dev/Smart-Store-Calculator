@@ -33,5 +33,6 @@ public class SmartStoreCalculator {
         System.out.println("==== ORDER/S ====");
         System.out.println("Product name: " + productName);
         System.out.println("Unit price: " + unitPrice);
+        System.out.println("Quantity purchased: " + quantityPurchased);
     }
 }
