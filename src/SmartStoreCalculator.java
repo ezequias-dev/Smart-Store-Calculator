@@ -44,5 +44,10 @@ public class SmartStoreCalculator {
         System.out.printf("Gross total: %c%.2f%n", moneySymbol, grossTotal);
         System.out.printf("Discount value: %c%.2f%n", moneySymbol, discountValue);
         System.out.printf("Total value with discount: %c%.2f%n", moneySymbol, finalTotalWithDiscount);
+        System.out.printf("Amount to be paid per month: %d%c %c%.2f%n",numberOfInstallments, xSymbol,
+                moneySymbol, installmentAmount);
+        System.out.println("===== END =====");
+
+        input.close();
     }
 }
