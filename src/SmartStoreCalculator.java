@@ -34,7 +34,7 @@ public class SmartStoreCalculator {
         double finalTotalWithDiscount = grossTotal - discountValue;
         double installmentAmount = finalTotalWithDiscount / numberOfInstallments;
 
-        System.out.println("==== ORDER/S ====");
+        System.out.println("==== ORDER SUMMARY ====");
         System.out.println("Product name: " + productName);
         System.out.printf("Unit price: %c%.2f%n", moneySymbol, unitPrice);
         System.out.println("Quantity purchased: " + quantityPurchased);
