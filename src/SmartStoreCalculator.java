@@ -29,5 +29,9 @@ public class SmartStoreCalculator {
         double discountValue = grossTotal * (discountPercentage / 100.0);
         double finalTotalWithDiscount = grossTotal - discountValue;
         double installmentAmount = finalTotalWithDiscount / numberOfInstallments;
+
+        System.out.println("==== ORDER/S ====");
+        System.out.println("Product name: " + productName);
+        System.out.println("Unit price: " + unitPrice);
     }
 }
